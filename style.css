@@ -1,0 +1,58 @@
+body{
+
+}
+#banner{
+    width: 100%;
+    height: 400px;
+}
+.principal{
+    background: grey;
+    /* espaçamento interno */
+    padding: 20px;
+}
+.titulo_header{
+    margin-left: 20px;
+}
+.titulo_centralizado{
+    text-align: center;
+    color: aliceblue;
+    height:100px;
+    
+    /* espaçcamento externo */
+    margin: 10px;
+}
+p{
+    text-align: center;
+}
+#missao{
+    font-size: 20px;
+}
+/* marcamos strong que está dentro do em (itálico)*/
+em strong{
+    color: aliceblue;
+}
+.itens{
+    font-style: italic;
+}
+.beneficios{
+    background: white;
+    padding: 15px;
+    margin-left:10%;
+}
+ul{
+    /*
+    A lista é um block, apesar de ocupar 50% da tela, ela não permite deixar um outro conteudo ao lado dela, diferente da tag img por exemplo que é inline, permitindo a existencia de conteudos ao lado tela.
+    Para permitir a existencia de uma img ao lado de uma lista usa-se:
+    */
+    display:inline-block;
+    /* para alinhar com o topo da img usa-se: */
+    vertical-align: top;
+    width: 40%;
+    margin-right: 10%;
+    
+    
+}
+.imagem_beneficio{
+    width: 20%;
+    height: 250px;
+}
